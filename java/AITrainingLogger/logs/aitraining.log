@@ -1,0 +1,983 @@
+2026-04-17 10:18:58 [INFO ] com.ailogger.config.DatabaseConfig - Configuration loaded successfully.
+2026-04-17 10:18:58 [INFO ] com.ailogger.util.DBConnection - SQLite JDBC driver loaded.
+2026-04-17 10:18:58 [INFO ] com.ailogger.util.DBConnection - Initialising database schema...
+2026-04-17 10:20:08 [INFO ] com.ailogger.config.DatabaseConfig - Configuration loaded successfully.
+2026-04-17 10:20:08 [INFO ] com.ailogger.util.DBConnection - SQLite JDBC driver loaded.
+2026-04-17 10:20:09 [INFO ] com.ailogger.util.DBConnection - Initialising database schema...
+2026-04-17 10:20:09 [INFO ] com.ailogger.util.DBConnection - Schema initialised successfully.
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 53fbe4ad-365b-416a-86c2-49a3bd723964 (ResNet-34)
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=1)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=2.3836 valLoss=2.6127 trainAcc=21.47% valAcc=13.74% trainF1=0.2111 valF1=0.1368 lr=0.001000 duration=947ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=1)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 1 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=2)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=2.2898 valLoss=2.5341 trainAcc=26.02% valAcc=18.29% trainF1=0.2529 valF1=0.1806 lr=0.000994 duration=954ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=2)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 2 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=3)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=2.2010 valLoss=2.4504 trainAcc=27.26% valAcc=20.80% trainF1=0.2614 valF1=0.2037 lr=0.000976 duration=1100ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=3)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 3 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=4)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=2.0924 valLoss=2.3671 trainAcc=32.51% valAcc=21.19% trainF1=0.3147 valF1=0.2100 lr=0.000946 duration=967ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=4)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 4 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=5)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.9637 valLoss=2.2786 trainAcc=35.98% valAcc=24.92% trainF1=0.3589 valF1=0.2470 lr=0.000905 duration=1054ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=5)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 5 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=6)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.8601 valLoss=2.1999 trainAcc=40.48% valAcc=27.12% trainF1=0.4014 valF1=0.2639 lr=0.000854 duration=912ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=6)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 6 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=7)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=1.7703 valLoss=2.1327 trainAcc=43.59% valAcc=30.37% trainF1=0.4233 valF1=0.2981 lr=0.000794 duration=1079ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=7)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 7 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=8)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=1.6745 valLoss=2.0498 trainAcc=45.30% valAcc=34.29% trainF1=0.4486 valF1=0.3363 lr=0.000727 duration=949ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=8)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 8 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=9)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=1.5597 valLoss=1.9535 trainAcc=48.60% valAcc=37.31% trainF1=0.4770 valF1=0.3631 lr=0.000655 duration=922ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=9)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 9 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=10)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=1.4527 valLoss=1.8681 trainAcc=51.96% valAcc=39.22% trainF1=0.4943 valF1=0.3733 lr=0.000578 duration=993ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=10)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 10 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:20:09 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 5.782172325201155E-5
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 5.782172325201155E-4 ? 5.782172325201155E-5 (ReduceLROnPlateau — val_loss plateaued)
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=11)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=1.3403 valLoss=1.7772 trainAcc=58.00% valAcc=42.55% trainF1=0.5793 valF1=0.4059 lr=0.000500 duration=1110ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=11)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 11 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=12)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=1.2464 valLoss=1.6813 trainAcc=59.57% valAcc=45.25% trainF1=0.5759 valF1=0.4370 lr=0.000422 duration=977ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=12)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 12 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=13)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=1.1616 valLoss=1.5915 trainAcc=61.79% valAcc=49.37% trainF1=0.5914 valF1=0.4713 lr=0.000345 duration=810ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=13)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 13 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=14)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=1.0542 valLoss=1.5202 trainAcc=67.76% valAcc=52.04% trainF1=0.6554 valF1=0.4948 lr=0.000273 duration=1123ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=14)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 14 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=15)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.9481 valLoss=1.4268 trainAcc=70.15% valAcc=54.51% trainF1=0.6859 valF1=0.5210 lr=0.000206 duration=1035ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=15)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 15 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 16 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=16)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 16] trainLoss=0.8264 valLoss=1.3564 trainAcc=75.34% valAcc=55.98% trainF1=0.7373 valF1=0.5390 lr=0.000146 duration=1128ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 16 (id=16)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 16 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 16 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 17 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=17)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 17] trainLoss=0.7134 valLoss=1.2718 trainAcc=77.68% valAcc=58.69% trainF1=0.7667 valF1=0.5827 lr=0.000095 duration=935ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 17 (id=17)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 17 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 17 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 18 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=18)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 18] trainLoss=0.5955 valLoss=1.1828 trainAcc=81.67% valAcc=62.90% trainF1=0.7913 valF1=0.6247 lr=0.000054 duration=1078ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 18 (id=18)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 18 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 18 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 19 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=19)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 19] trainLoss=0.5075 valLoss=1.0908 trainAcc=85.26% valAcc=66.03% trainF1=0.8450 valF1=0.6553 lr=0.000024 duration=1193ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 19 (id=19)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 19 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 19 — valLoss={:.4f}
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 20 logged for session 53fbe4ad-365b-416a-86c2-49a3bd723964 (id=20)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 20] trainLoss=0.4211 valLoss=1.0062 trainAcc=87.59% valAcc=66.92% trainF1=0.8555 valF1=0.6541 lr=0.000006 duration=931ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 20 (id=20)
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 20 marked as best for session 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 20 — valLoss={:.4f}
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 53fbe4ad-365b-416a-86c2-49a3bd723964 status updated to COMPLETED
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 53fbe4ad-365b-416a-86c2-49a3bd723964
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 602a6743-9371-415c-afe0-e6af18f0dbae (BERT-Base)
+2026-04-17 10:20:09 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=21)
+2026-04-17 10:20:09 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=1.7038 valLoss=1.9213 trainAcc=33.64% valAcc=23.98% trainF1=0.3349 valF1=0.2351 lr=0.000020 duration=2423ms
+2026-04-17 10:20:09 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=21)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 21 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=22)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=1.5794 valLoss=1.8255 trainAcc=38.25% valAcc=28.33% trainF1=0.3808 valF1=0.2815 lr=0.000019 duration=2289ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=22)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 22 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=23)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=1.4551 valLoss=1.7493 trainAcc=42.67% valAcc=31.12% trainF1=0.4212 valF1=0.3087 lr=0.000017 duration=2596ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=23)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 23 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=24)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=1.3147 valLoss=1.6745 trainAcc=49.24% valAcc=34.25% trainF1=0.4863 valF1=0.3338 lr=0.000016 duration=2999ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=24)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 24 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=25)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.1949 valLoss=1.5957 trainAcc=53.20% valAcc=37.55% trainF1=0.5264 valF1=0.3683 lr=0.000015 duration=2550ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=25)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 25 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:20:10 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 1.00e-05
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 1.47e-05 ? 1.00e-05 (Linear LR decay starts after warmup)
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=26)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.0721 valLoss=1.5027 trainAcc=57.79% valAcc=39.97% trainF1=0.5744 valF1=0.3962 lr=0.000013 duration=2303ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=26)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 26 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=27)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=0.9663 valLoss=1.4248 trainAcc=62.75% valAcc=43.80% trainF1=0.6172 valF1=0.4283 lr=0.000012 duration=2482ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=27)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 27 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=28)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=0.8456 valLoss=1.3424 trainAcc=67.44% valAcc=46.98% trainF1=0.6674 valF1=0.4672 lr=0.000011 duration=2985ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=28)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 28 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=29)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=0.6989 valLoss=1.2429 trainAcc=73.54% valAcc=50.55% trainF1=0.7286 valF1=0.4925 lr=0.000009 duration=2537ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=29)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 29 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=30)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=0.5801 valLoss=1.1562 trainAcc=78.41% valAcc=55.33% trainF1=0.7674 valF1=0.5454 lr=0.000008 duration=2422ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=30)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 30 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=31)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=0.4375 valLoss=1.0689 trainAcc=84.22% valAcc=58.08% trainF1=0.8321 valF1=0.5797 lr=0.000007 duration=2966ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=31)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 31 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=32)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=0.3240 valLoss=0.9954 trainAcc=87.24% valAcc=62.01% trainF1=0.8515 valF1=0.6120 lr=0.000005 duration=2561ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=32)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 32 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=33)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=0.1973 valLoss=0.8794 trainAcc=92.17% valAcc=65.18% trainF1=0.9217 valF1=0.6468 lr=0.000004 duration=2063ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=33)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 33 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=34)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=0.0586 valLoss=0.7902 trainAcc=99.36% valAcc=69.42% trainF1=0.9880 valF1=0.6939 lr=0.000003 duration=2549ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=34)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 34 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:20:10 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 602a6743-9371-415c-afe0-e6af18f0dbae (id=35)
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.0300 valLoss=0.6742 trainAcc=99.50% valAcc=74.80% trainF1=0.9930 valF1=0.7288 lr=0.000001 duration=2453ms
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=35)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 35 marked as best for session 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:20:10 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: early_stopping -> true
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'early_stopping' changed: false ? true (Val loss not improving for 3 epochs — stopping)
+2026-04-17 10:20:10 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 602a6743-9371-415c-afe0-e6af18f0dbae status updated to COMPLETED
+2026-04-17 10:20:10 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 602a6743-9371-415c-afe0-e6af18f0dbae
+2026-04-17 10:20:10 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/53fbe4ad_summary.txt
+2026-04-17 10:20:10 [INFO ] c.ailogger.service.ReportGenerator - CSV exported: reports/53fbe4ad_epochs.csv
+2026-04-17 10:20:10 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/602a6743_summary.txt
+2026-04-17 10:29:03 [INFO ] com.ailogger.config.DatabaseConfig - Configuration loaded successfully.
+2026-04-17 10:29:03 [INFO ] com.ailogger.util.DBConnection - SQLite JDBC driver loaded.
+2026-04-17 10:29:03 [INFO ] com.ailogger.util.DBConnection - Initialising database schema...
+2026-04-17 10:29:03 [INFO ] com.ailogger.util.DBConnection - Schema initialised successfully.
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (ResNet-34)
+2026-04-17 10:29:03 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=36)
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=2.3836 valLoss=2.6127 trainAcc=21.47% valAcc=13.74% trainF1=0.2111 valF1=0.1368 lr=0.001000 duration=947ms
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=36)
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 36 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:29:03 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=37)
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=2.2898 valLoss=2.5341 trainAcc=26.02% valAcc=18.29% trainF1=0.2529 valF1=0.1806 lr=0.000994 duration=954ms
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=37)
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 37 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:29:03 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=38)
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=2.2010 valLoss=2.4504 trainAcc=27.26% valAcc=20.80% trainF1=0.2614 valF1=0.2037 lr=0.000976 duration=1100ms
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=38)
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 38 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:29:03 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=39)
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=2.0924 valLoss=2.3671 trainAcc=32.51% valAcc=21.19% trainF1=0.3147 valF1=0.2100 lr=0.000946 duration=967ms
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=39)
+2026-04-17 10:29:03 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 39 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:29:03 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=40)
+2026-04-17 10:29:03 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.9637 valLoss=2.2786 trainAcc=35.98% valAcc=24.92% trainF1=0.3589 valF1=0.2470 lr=0.000905 duration=1054ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=40)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 40 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=41)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.8601 valLoss=2.1999 trainAcc=40.48% valAcc=27.12% trainF1=0.4014 valF1=0.2639 lr=0.000854 duration=912ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=41)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 41 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=42)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=1.7703 valLoss=2.1327 trainAcc=43.59% valAcc=30.37% trainF1=0.4233 valF1=0.2981 lr=0.000794 duration=1079ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=42)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 42 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=43)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=1.6745 valLoss=2.0498 trainAcc=45.30% valAcc=34.29% trainF1=0.4486 valF1=0.3363 lr=0.000727 duration=949ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=43)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 43 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=44)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=1.5597 valLoss=1.9535 trainAcc=48.60% valAcc=37.31% trainF1=0.4770 valF1=0.3631 lr=0.000655 duration=922ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=44)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 44 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=45)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=1.4527 valLoss=1.8681 trainAcc=51.96% valAcc=39.22% trainF1=0.4943 valF1=0.3733 lr=0.000578 duration=993ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=45)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 45 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:29:04 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 5.782172325201155E-5
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 5.782172325201155E-4 ? 5.782172325201155E-5 (ReduceLROnPlateau — val_loss plateaued)
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=46)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=1.3403 valLoss=1.7772 trainAcc=58.00% valAcc=42.55% trainF1=0.5793 valF1=0.4059 lr=0.000500 duration=1110ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=46)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 46 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=47)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=1.2464 valLoss=1.6813 trainAcc=59.57% valAcc=45.25% trainF1=0.5759 valF1=0.4370 lr=0.000422 duration=977ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=47)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 47 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=48)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=1.1616 valLoss=1.5915 trainAcc=61.79% valAcc=49.37% trainF1=0.5914 valF1=0.4713 lr=0.000345 duration=810ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=48)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 48 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=49)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=1.0542 valLoss=1.5202 trainAcc=67.76% valAcc=52.04% trainF1=0.6554 valF1=0.4948 lr=0.000273 duration=1123ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=49)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 49 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=50)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.9481 valLoss=1.4268 trainAcc=70.15% valAcc=54.51% trainF1=0.6859 valF1=0.5210 lr=0.000206 duration=1035ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=50)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 50 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 16 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=51)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 16] trainLoss=0.8264 valLoss=1.3564 trainAcc=75.34% valAcc=55.98% trainF1=0.7373 valF1=0.5390 lr=0.000146 duration=1128ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 16 (id=51)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 51 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 16 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 17 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=52)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 17] trainLoss=0.7134 valLoss=1.2718 trainAcc=77.68% valAcc=58.69% trainF1=0.7667 valF1=0.5827 lr=0.000095 duration=935ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 17 (id=52)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 52 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 17 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 18 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=53)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 18] trainLoss=0.5955 valLoss=1.1828 trainAcc=81.67% valAcc=62.90% trainF1=0.7913 valF1=0.6247 lr=0.000054 duration=1078ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 18 (id=53)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 53 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 18 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 19 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=54)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 19] trainLoss=0.5075 valLoss=1.0908 trainAcc=85.26% valAcc=66.03% trainF1=0.8450 valF1=0.6553 lr=0.000024 duration=1193ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 19 (id=54)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 54 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 19 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 20 logged for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc (id=55)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 20] trainLoss=0.4211 valLoss=1.0062 trainAcc=87.59% valAcc=66.92% trainF1=0.8555 valF1=0.6541 lr=0.000006 duration=931ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 20 (id=55)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 55 marked as best for session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 20 — valLoss={:.4f}
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 4a26e2d2-24bd-47a9-9ab3-2028466b92bc status updated to COMPLETED
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 4a26e2d2-24bd-47a9-9ab3-2028466b92bc
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (BERT-Base)
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=56)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=1.7038 valLoss=1.9213 trainAcc=33.64% valAcc=23.98% trainF1=0.3349 valF1=0.2351 lr=0.000020 duration=2423ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=56)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 56 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=57)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=1.5794 valLoss=1.8255 trainAcc=38.25% valAcc=28.33% trainF1=0.3808 valF1=0.2815 lr=0.000019 duration=2289ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=57)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 57 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=58)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=1.4551 valLoss=1.7493 trainAcc=42.67% valAcc=31.12% trainF1=0.4212 valF1=0.3087 lr=0.000017 duration=2596ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=58)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 58 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=59)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=1.3147 valLoss=1.6745 trainAcc=49.24% valAcc=34.25% trainF1=0.4863 valF1=0.3338 lr=0.000016 duration=2999ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=59)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 59 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=60)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.1949 valLoss=1.5957 trainAcc=53.20% valAcc=37.55% trainF1=0.5264 valF1=0.3683 lr=0.000015 duration=2550ms
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=60)
+2026-04-17 10:29:04 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 60 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:29:04 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 1.00e-05
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 1.47e-05 ? 1.00e-05 (Linear LR decay starts after warmup)
+2026-04-17 10:29:04 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=61)
+2026-04-17 10:29:04 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.0721 valLoss=1.5027 trainAcc=57.79% valAcc=39.97% trainF1=0.5744 valF1=0.3962 lr=0.000013 duration=2303ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=61)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 61 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=62)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=0.9663 valLoss=1.4248 trainAcc=62.75% valAcc=43.80% trainF1=0.6172 valF1=0.4283 lr=0.000012 duration=2482ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=62)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 62 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=63)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=0.8456 valLoss=1.3424 trainAcc=67.44% valAcc=46.98% trainF1=0.6674 valF1=0.4672 lr=0.000011 duration=2985ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=63)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 63 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=64)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=0.6989 valLoss=1.2429 trainAcc=73.54% valAcc=50.55% trainF1=0.7286 valF1=0.4925 lr=0.000009 duration=2537ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=64)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 64 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=65)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=0.5801 valLoss=1.1562 trainAcc=78.41% valAcc=55.33% trainF1=0.7674 valF1=0.5454 lr=0.000008 duration=2422ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=65)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 65 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=66)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=0.4375 valLoss=1.0689 trainAcc=84.22% valAcc=58.08% trainF1=0.8321 valF1=0.5797 lr=0.000007 duration=2966ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=66)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 66 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=67)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=0.3240 valLoss=0.9954 trainAcc=87.24% valAcc=62.01% trainF1=0.8515 valF1=0.6120 lr=0.000005 duration=2561ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=67)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 67 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=68)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=0.1973 valLoss=0.8794 trainAcc=92.17% valAcc=65.18% trainF1=0.9217 valF1=0.6468 lr=0.000004 duration=2063ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=68)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 68 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=69)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=0.0586 valLoss=0.7902 trainAcc=99.36% valAcc=69.42% trainF1=0.9880 valF1=0.6939 lr=0.000003 duration=2549ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=69)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 69 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:29:05 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 (id=70)
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.0300 valLoss=0.6742 trainAcc=99.50% valAcc=74.80% trainF1=0.9930 valF1=0.7288 lr=0.000001 duration=2453ms
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=70)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 70 marked as best for session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:29:05 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: early_stopping -> true
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'early_stopping' changed: false ? true (Val loss not improving for 3 epochs — stopping)
+2026-04-17 10:29:05 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762 status updated to COMPLETED
+2026-04-17 10:29:05 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 57d8cf5f-3a7f-4d7a-8c61-98f26f31e762
+2026-04-17 10:29:05 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/4a26e2d2_summary.txt
+2026-04-17 10:29:05 [INFO ] c.ailogger.service.ReportGenerator - CSV exported: reports/4a26e2d2_epochs.csv
+2026-04-17 10:29:05 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/57d8cf5f_summary.txt
+2026-04-17 10:30:51 [INFO ] com.ailogger.config.DatabaseConfig - Configuration loaded successfully.
+2026-04-17 10:30:51 [INFO ] com.ailogger.util.DBConnection - SQLite JDBC driver loaded.
+2026-04-17 10:30:51 [INFO ] com.ailogger.util.DBConnection - Initialising database schema...
+2026-04-17 10:30:51 [INFO ] com.ailogger.util.DBConnection - Schema initialised successfully.
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: f0a055a8-e7cb-4912-b728-e651c64f1c5e (ResNet-34)
+2026-04-17 10:30:51 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=71)
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=2.3836 valLoss=2.6127 trainAcc=21.47% valAcc=13.74% trainF1=0.2111 valF1=0.1368 lr=0.001000 duration=947ms
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=71)
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 71 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:30:51 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=72)
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=2.2898 valLoss=2.5341 trainAcc=26.02% valAcc=18.29% trainF1=0.2529 valF1=0.1806 lr=0.000994 duration=954ms
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=72)
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 72 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:30:51 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=73)
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=2.2010 valLoss=2.4504 trainAcc=27.26% valAcc=20.80% trainF1=0.2614 valF1=0.2037 lr=0.000976 duration=1100ms
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=73)
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 73 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:30:51 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=74)
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=2.0924 valLoss=2.3671 trainAcc=32.51% valAcc=21.19% trainF1=0.3147 valF1=0.2100 lr=0.000946 duration=967ms
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=74)
+2026-04-17 10:30:51 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 74 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:30:51 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=75)
+2026-04-17 10:30:51 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.9637 valLoss=2.2786 trainAcc=35.98% valAcc=24.92% trainF1=0.3589 valF1=0.2470 lr=0.000905 duration=1054ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=75)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 75 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=76)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.8601 valLoss=2.1999 trainAcc=40.48% valAcc=27.12% trainF1=0.4014 valF1=0.2639 lr=0.000854 duration=912ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=76)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 76 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=77)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=1.7703 valLoss=2.1327 trainAcc=43.59% valAcc=30.37% trainF1=0.4233 valF1=0.2981 lr=0.000794 duration=1079ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=77)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 77 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=78)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=1.6745 valLoss=2.0498 trainAcc=45.30% valAcc=34.29% trainF1=0.4486 valF1=0.3363 lr=0.000727 duration=949ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=78)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 78 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=79)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=1.5597 valLoss=1.9535 trainAcc=48.60% valAcc=37.31% trainF1=0.4770 valF1=0.3631 lr=0.000655 duration=922ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=79)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 79 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=80)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=1.4527 valLoss=1.8681 trainAcc=51.96% valAcc=39.22% trainF1=0.4943 valF1=0.3733 lr=0.000578 duration=993ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=80)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 80 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:30:52 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 5.782172325201155E-5
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 5.782172325201155E-4 ? 5.782172325201155E-5 (ReduceLROnPlateau — val_loss plateaued)
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=81)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=1.3403 valLoss=1.7772 trainAcc=58.00% valAcc=42.55% trainF1=0.5793 valF1=0.4059 lr=0.000500 duration=1110ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=81)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 81 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=82)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=1.2464 valLoss=1.6813 trainAcc=59.57% valAcc=45.25% trainF1=0.5759 valF1=0.4370 lr=0.000422 duration=977ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=82)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 82 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=83)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=1.1616 valLoss=1.5915 trainAcc=61.79% valAcc=49.37% trainF1=0.5914 valF1=0.4713 lr=0.000345 duration=810ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=83)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 83 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=84)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=1.0542 valLoss=1.5202 trainAcc=67.76% valAcc=52.04% trainF1=0.6554 valF1=0.4948 lr=0.000273 duration=1123ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=84)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 84 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=85)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.9481 valLoss=1.4268 trainAcc=70.15% valAcc=54.51% trainF1=0.6859 valF1=0.5210 lr=0.000206 duration=1035ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=85)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 85 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 16 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=86)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 16] trainLoss=0.8264 valLoss=1.3564 trainAcc=75.34% valAcc=55.98% trainF1=0.7373 valF1=0.5390 lr=0.000146 duration=1128ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 16 (id=86)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 86 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 16 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 17 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=87)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 17] trainLoss=0.7134 valLoss=1.2718 trainAcc=77.68% valAcc=58.69% trainF1=0.7667 valF1=0.5827 lr=0.000095 duration=935ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 17 (id=87)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 87 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 17 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 18 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=88)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 18] trainLoss=0.5955 valLoss=1.1828 trainAcc=81.67% valAcc=62.90% trainF1=0.7913 valF1=0.6247 lr=0.000054 duration=1078ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 18 (id=88)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 88 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 18 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 19 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=89)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 19] trainLoss=0.5075 valLoss=1.0908 trainAcc=85.26% valAcc=66.03% trainF1=0.8450 valF1=0.6553 lr=0.000024 duration=1193ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 19 (id=89)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 89 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 19 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 20 logged for session f0a055a8-e7cb-4912-b728-e651c64f1c5e (id=90)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 20] trainLoss=0.4211 valLoss=1.0062 trainAcc=87.59% valAcc=66.92% trainF1=0.8555 valF1=0.6541 lr=0.000006 duration=931ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 20 (id=90)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 90 marked as best for session f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 20 — valLoss={:.4f}
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session f0a055a8-e7cb-4912-b728-e651c64f1c5e status updated to COMPLETED
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: f0a055a8-e7cb-4912-b728-e651c64f1c5e
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 2ae74784-5362-4470-88b2-38c375d03241 (BERT-Base)
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=91)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=1.7038 valLoss=1.9213 trainAcc=33.64% valAcc=23.98% trainF1=0.3349 valF1=0.2351 lr=0.000020 duration=2423ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=91)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 91 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=92)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=1.5794 valLoss=1.8255 trainAcc=38.25% valAcc=28.33% trainF1=0.3808 valF1=0.2815 lr=0.000019 duration=2289ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=92)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 92 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=93)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=1.4551 valLoss=1.7493 trainAcc=42.67% valAcc=31.12% trainF1=0.4212 valF1=0.3087 lr=0.000017 duration=2596ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=93)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 93 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=94)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=1.3147 valLoss=1.6745 trainAcc=49.24% valAcc=34.25% trainF1=0.4863 valF1=0.3338 lr=0.000016 duration=2999ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=94)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 94 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=95)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.1949 valLoss=1.5957 trainAcc=53.20% valAcc=37.55% trainF1=0.5264 valF1=0.3683 lr=0.000015 duration=2550ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=95)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 95 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:30:52 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 1.00e-05
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 1.47e-05 ? 1.00e-05 (Linear LR decay starts after warmup)
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=96)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.0721 valLoss=1.5027 trainAcc=57.79% valAcc=39.97% trainF1=0.5744 valF1=0.3962 lr=0.000013 duration=2303ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=96)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 96 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=97)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=0.9663 valLoss=1.4248 trainAcc=62.75% valAcc=43.80% trainF1=0.6172 valF1=0.4283 lr=0.000012 duration=2482ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=97)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 97 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:30:52 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=98)
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=0.8456 valLoss=1.3424 trainAcc=67.44% valAcc=46.98% trainF1=0.6674 valF1=0.4672 lr=0.000011 duration=2985ms
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=98)
+2026-04-17 10:30:52 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 98 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:52 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:30:53 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=99)
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=0.6989 valLoss=1.2429 trainAcc=73.54% valAcc=50.55% trainF1=0.7286 valF1=0.4925 lr=0.000009 duration=2537ms
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=99)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 99 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:30:53 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=100)
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=0.5801 valLoss=1.1562 trainAcc=78.41% valAcc=55.33% trainF1=0.7674 valF1=0.5454 lr=0.000008 duration=2422ms
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=100)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 100 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:30:53 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=101)
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=0.4375 valLoss=1.0689 trainAcc=84.22% valAcc=58.08% trainF1=0.8321 valF1=0.5797 lr=0.000007 duration=2966ms
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=101)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 101 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:30:53 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=102)
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=0.3240 valLoss=0.9954 trainAcc=87.24% valAcc=62.01% trainF1=0.8515 valF1=0.6120 lr=0.000005 duration=2561ms
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=102)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 102 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:30:53 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=103)
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=0.1973 valLoss=0.8794 trainAcc=92.17% valAcc=65.18% trainF1=0.9217 valF1=0.6468 lr=0.000004 duration=2063ms
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=103)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 103 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:30:53 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=104)
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=0.0586 valLoss=0.7902 trainAcc=99.36% valAcc=69.42% trainF1=0.9880 valF1=0.6939 lr=0.000003 duration=2549ms
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=104)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 104 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:30:53 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 2ae74784-5362-4470-88b2-38c375d03241 (id=105)
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.0300 valLoss=0.6742 trainAcc=99.50% valAcc=74.80% trainF1=0.9930 valF1=0.7288 lr=0.000001 duration=2453ms
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=105)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 105 marked as best for session 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:30:53 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: early_stopping -> true
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'early_stopping' changed: false ? true (Val loss not improving for 3 epochs — stopping)
+2026-04-17 10:30:53 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 2ae74784-5362-4470-88b2-38c375d03241 status updated to COMPLETED
+2026-04-17 10:30:53 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 2ae74784-5362-4470-88b2-38c375d03241
+2026-04-17 10:30:53 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/f0a055a8_summary.txt
+2026-04-17 10:30:53 [INFO ] c.ailogger.service.ReportGenerator - CSV exported: reports/f0a055a8_epochs.csv
+2026-04-17 10:30:53 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/2ae74784_summary.txt
+2026-04-17 10:32:14 [INFO ] com.ailogger.config.DatabaseConfig - Configuration loaded successfully.
+2026-04-17 10:32:15 [INFO ] com.ailogger.util.DBConnection - SQLite JDBC driver loaded.
+2026-04-17 10:32:15 [INFO ] com.ailogger.util.DBConnection - Initialising database schema...
+2026-04-17 10:32:15 [INFO ] com.ailogger.util.DBConnection - Schema initialised successfully.
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (ResNet-34)
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=106)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=2.3836 valLoss=2.6127 trainAcc=21.47% valAcc=13.74% trainF1=0.2111 valF1=0.1368 lr=0.001000 duration=947ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=106)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 106 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=107)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=2.2898 valLoss=2.5341 trainAcc=26.02% valAcc=18.29% trainF1=0.2529 valF1=0.1806 lr=0.000994 duration=954ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=107)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 107 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=108)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=2.2010 valLoss=2.4504 trainAcc=27.26% valAcc=20.80% trainF1=0.2614 valF1=0.2037 lr=0.000976 duration=1100ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=108)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 108 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=109)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=2.0924 valLoss=2.3671 trainAcc=32.51% valAcc=21.19% trainF1=0.3147 valF1=0.2100 lr=0.000946 duration=967ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=109)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 109 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=110)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.9637 valLoss=2.2786 trainAcc=35.98% valAcc=24.92% trainF1=0.3589 valF1=0.2470 lr=0.000905 duration=1054ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=110)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 110 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=111)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.8601 valLoss=2.1999 trainAcc=40.48% valAcc=27.12% trainF1=0.4014 valF1=0.2639 lr=0.000854 duration=912ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=111)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 111 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=112)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=1.7703 valLoss=2.1327 trainAcc=43.59% valAcc=30.37% trainF1=0.4233 valF1=0.2981 lr=0.000794 duration=1079ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=112)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 112 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=113)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=1.6745 valLoss=2.0498 trainAcc=45.30% valAcc=34.29% trainF1=0.4486 valF1=0.3363 lr=0.000727 duration=949ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=113)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 113 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=114)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=1.5597 valLoss=1.9535 trainAcc=48.60% valAcc=37.31% trainF1=0.4770 valF1=0.3631 lr=0.000655 duration=922ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=114)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 114 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=115)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=1.4527 valLoss=1.8681 trainAcc=51.96% valAcc=39.22% trainF1=0.4943 valF1=0.3733 lr=0.000578 duration=993ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=115)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 115 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:32:15 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 5.782172325201155E-5
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 5.782172325201155E-4 ? 5.782172325201155E-5 (ReduceLROnPlateau — val_loss plateaued)
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=116)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=1.3403 valLoss=1.7772 trainAcc=58.00% valAcc=42.55% trainF1=0.5793 valF1=0.4059 lr=0.000500 duration=1110ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=116)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 116 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=117)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=1.2464 valLoss=1.6813 trainAcc=59.57% valAcc=45.25% trainF1=0.5759 valF1=0.4370 lr=0.000422 duration=977ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=117)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 117 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=118)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=1.1616 valLoss=1.5915 trainAcc=61.79% valAcc=49.37% trainF1=0.5914 valF1=0.4713 lr=0.000345 duration=810ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=118)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 118 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:32:15 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=119)
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=1.0542 valLoss=1.5202 trainAcc=67.76% valAcc=52.04% trainF1=0.6554 valF1=0.4948 lr=0.000273 duration=1123ms
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=119)
+2026-04-17 10:32:15 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 119 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:15 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=120)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.9481 valLoss=1.4268 trainAcc=70.15% valAcc=54.51% trainF1=0.6859 valF1=0.5210 lr=0.000206 duration=1035ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=120)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 120 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 16 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=121)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 16] trainLoss=0.8264 valLoss=1.3564 trainAcc=75.34% valAcc=55.98% trainF1=0.7373 valF1=0.5390 lr=0.000146 duration=1128ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 16 (id=121)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 121 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 16 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 17 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=122)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 17] trainLoss=0.7134 valLoss=1.2718 trainAcc=77.68% valAcc=58.69% trainF1=0.7667 valF1=0.5827 lr=0.000095 duration=935ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 17 (id=122)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 122 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 17 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 18 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=123)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 18] trainLoss=0.5955 valLoss=1.1828 trainAcc=81.67% valAcc=62.90% trainF1=0.7913 valF1=0.6247 lr=0.000054 duration=1078ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 18 (id=123)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 123 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 18 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 19 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=124)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 19] trainLoss=0.5075 valLoss=1.0908 trainAcc=85.26% valAcc=66.03% trainF1=0.8450 valF1=0.6553 lr=0.000024 duration=1193ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 19 (id=124)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 124 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 19 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 20 logged for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 (id=125)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 20] trainLoss=0.4211 valLoss=1.0062 trainAcc=87.59% valAcc=66.92% trainF1=0.8555 valF1=0.6541 lr=0.000006 duration=931ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 20 (id=125)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 125 marked as best for session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 20 — valLoss={:.4f}
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556 status updated to COMPLETED
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 20b6e15d-2efa-4b2d-b2b1-56adb0ab3556
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 709c0afe-a572-4bbf-b793-04975da92ee4 (BERT-Base)
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=126)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=1.7038 valLoss=1.9213 trainAcc=33.64% valAcc=23.98% trainF1=0.3349 valF1=0.2351 lr=0.000020 duration=2423ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=126)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 126 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=127)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=1.5794 valLoss=1.8255 trainAcc=38.25% valAcc=28.33% trainF1=0.3808 valF1=0.2815 lr=0.000019 duration=2289ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=127)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 127 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=128)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=1.4551 valLoss=1.7493 trainAcc=42.67% valAcc=31.12% trainF1=0.4212 valF1=0.3087 lr=0.000017 duration=2596ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=128)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 128 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=129)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=1.3147 valLoss=1.6745 trainAcc=49.24% valAcc=34.25% trainF1=0.4863 valF1=0.3338 lr=0.000016 duration=2999ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=129)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 129 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=130)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.1949 valLoss=1.5957 trainAcc=53.20% valAcc=37.55% trainF1=0.5264 valF1=0.3683 lr=0.000015 duration=2550ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=130)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 130 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:32:16 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 1.00e-05
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 1.47e-05 ? 1.00e-05 (Linear LR decay starts after warmup)
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=131)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.0721 valLoss=1.5027 trainAcc=57.79% valAcc=39.97% trainF1=0.5744 valF1=0.3962 lr=0.000013 duration=2303ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=131)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 131 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=132)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=0.9663 valLoss=1.4248 trainAcc=62.75% valAcc=43.80% trainF1=0.6172 valF1=0.4283 lr=0.000012 duration=2482ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=132)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 132 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=133)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=0.8456 valLoss=1.3424 trainAcc=67.44% valAcc=46.98% trainF1=0.6674 valF1=0.4672 lr=0.000011 duration=2985ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=133)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 133 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=134)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=0.6989 valLoss=1.2429 trainAcc=73.54% valAcc=50.55% trainF1=0.7286 valF1=0.4925 lr=0.000009 duration=2537ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=134)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 134 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=135)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=0.5801 valLoss=1.1562 trainAcc=78.41% valAcc=55.33% trainF1=0.7674 valF1=0.5454 lr=0.000008 duration=2422ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=135)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 135 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=136)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=0.4375 valLoss=1.0689 trainAcc=84.22% valAcc=58.08% trainF1=0.8321 valF1=0.5797 lr=0.000007 duration=2966ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=136)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 136 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=137)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=0.3240 valLoss=0.9954 trainAcc=87.24% valAcc=62.01% trainF1=0.8515 valF1=0.6120 lr=0.000005 duration=2561ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=137)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 137 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=138)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=0.1973 valLoss=0.8794 trainAcc=92.17% valAcc=65.18% trainF1=0.9217 valF1=0.6468 lr=0.000004 duration=2063ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=138)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 138 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:32:16 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=139)
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=0.0586 valLoss=0.7902 trainAcc=99.36% valAcc=69.42% trainF1=0.9880 valF1=0.6939 lr=0.000003 duration=2549ms
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=139)
+2026-04-17 10:32:16 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 139 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:16 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:32:17 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 709c0afe-a572-4bbf-b793-04975da92ee4 (id=140)
+2026-04-17 10:32:17 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.0300 valLoss=0.6742 trainAcc=99.50% valAcc=74.80% trainF1=0.9930 valF1=0.7288 lr=0.000001 duration=2453ms
+2026-04-17 10:32:17 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=140)
+2026-04-17 10:32:17 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 140 marked as best for session 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:17 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:32:17 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: early_stopping -> true
+2026-04-17 10:32:17 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'early_stopping' changed: false ? true (Val loss not improving for 3 epochs — stopping)
+2026-04-17 10:32:17 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 709c0afe-a572-4bbf-b793-04975da92ee4 status updated to COMPLETED
+2026-04-17 10:32:17 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 709c0afe-a572-4bbf-b793-04975da92ee4
+2026-04-17 10:32:17 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/20b6e15d_summary.txt
+2026-04-17 10:32:17 [INFO ] c.ailogger.service.ReportGenerator - CSV exported: reports/20b6e15d_epochs.csv
+2026-04-17 10:32:17 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/709c0afe_summary.txt
+2026-04-17 10:32:53 [INFO ] com.ailogger.config.DatabaseConfig - Configuration loaded successfully.
+2026-04-17 10:32:54 [INFO ] com.ailogger.util.DBConnection - SQLite JDBC driver loaded.
+2026-04-17 10:32:54 [INFO ] com.ailogger.util.DBConnection - Initialising database schema...
+2026-04-17 10:32:54 [INFO ] com.ailogger.util.DBConnection - Schema initialised successfully.
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (ResNet-34)
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=141)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=2.3836 valLoss=2.6127 trainAcc=21.47% valAcc=13.74% trainF1=0.2111 valF1=0.1368 lr=0.001000 duration=947ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=141)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 141 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=142)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=2.2898 valLoss=2.5341 trainAcc=26.02% valAcc=18.29% trainF1=0.2529 valF1=0.1806 lr=0.000994 duration=954ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=142)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 142 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=143)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=2.2010 valLoss=2.4504 trainAcc=27.26% valAcc=20.80% trainF1=0.2614 valF1=0.2037 lr=0.000976 duration=1100ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=143)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 143 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=144)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=2.0924 valLoss=2.3671 trainAcc=32.51% valAcc=21.19% trainF1=0.3147 valF1=0.2100 lr=0.000946 duration=967ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=144)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 144 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=145)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.9637 valLoss=2.2786 trainAcc=35.98% valAcc=24.92% trainF1=0.3589 valF1=0.2470 lr=0.000905 duration=1054ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=145)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 145 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=146)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.8601 valLoss=2.1999 trainAcc=40.48% valAcc=27.12% trainF1=0.4014 valF1=0.2639 lr=0.000854 duration=912ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=146)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 146 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=147)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=1.7703 valLoss=2.1327 trainAcc=43.59% valAcc=30.37% trainF1=0.4233 valF1=0.2981 lr=0.000794 duration=1079ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=147)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 147 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=148)
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=1.6745 valLoss=2.0498 trainAcc=45.30% valAcc=34.29% trainF1=0.4486 valF1=0.3363 lr=0.000727 duration=949ms
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=148)
+2026-04-17 10:32:54 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 148 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:54 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:32:54 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=149)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=1.5597 valLoss=1.9535 trainAcc=48.60% valAcc=37.31% trainF1=0.4770 valF1=0.3631 lr=0.000655 duration=922ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=149)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 149 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=150)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=1.4527 valLoss=1.8681 trainAcc=51.96% valAcc=39.22% trainF1=0.4943 valF1=0.3733 lr=0.000578 duration=993ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=150)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 150 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:32:55 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 5.782172325201155E-5
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 5.782172325201155E-4 ? 5.782172325201155E-5 (ReduceLROnPlateau — val_loss plateaued)
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=151)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=1.3403 valLoss=1.7772 trainAcc=58.00% valAcc=42.55% trainF1=0.5793 valF1=0.4059 lr=0.000500 duration=1110ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=151)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 151 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=152)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=1.2464 valLoss=1.6813 trainAcc=59.57% valAcc=45.25% trainF1=0.5759 valF1=0.4370 lr=0.000422 duration=977ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=152)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 152 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=153)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=1.1616 valLoss=1.5915 trainAcc=61.79% valAcc=49.37% trainF1=0.5914 valF1=0.4713 lr=0.000345 duration=810ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=153)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 153 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=154)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=1.0542 valLoss=1.5202 trainAcc=67.76% valAcc=52.04% trainF1=0.6554 valF1=0.4948 lr=0.000273 duration=1123ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=154)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 154 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=155)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.9481 valLoss=1.4268 trainAcc=70.15% valAcc=54.51% trainF1=0.6859 valF1=0.5210 lr=0.000206 duration=1035ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=155)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 155 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 16 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=156)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 16] trainLoss=0.8264 valLoss=1.3564 trainAcc=75.34% valAcc=55.98% trainF1=0.7373 valF1=0.5390 lr=0.000146 duration=1128ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 16 (id=156)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 156 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 16 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 17 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=157)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 17] trainLoss=0.7134 valLoss=1.2718 trainAcc=77.68% valAcc=58.69% trainF1=0.7667 valF1=0.5827 lr=0.000095 duration=935ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 17 (id=157)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 157 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 17 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 18 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=158)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 18] trainLoss=0.5955 valLoss=1.1828 trainAcc=81.67% valAcc=62.90% trainF1=0.7913 valF1=0.6247 lr=0.000054 duration=1078ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 18 (id=158)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 158 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 18 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 19 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=159)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 19] trainLoss=0.5075 valLoss=1.0908 trainAcc=85.26% valAcc=66.03% trainF1=0.8450 valF1=0.6553 lr=0.000024 duration=1193ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 19 (id=159)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 159 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 19 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 20 logged for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 (id=160)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 20] trainLoss=0.4211 valLoss=1.0062 trainAcc=87.59% valAcc=66.92% trainF1=0.8555 valF1=0.6541 lr=0.000006 duration=931ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 20 (id=160)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 160 marked as best for session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 20 — valLoss={:.4f}
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 71c2e869-3f48-48a9-ba37-f7dff85b6ba4 status updated to COMPLETED
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 71c2e869-3f48-48a9-ba37-f7dff85b6ba4
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session inserted: 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger - ? Training session STARTED: 455e3ee8-8110-4867-a1cb-6d32955183f1 (BERT-Base)
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 1 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=161)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  1] trainLoss=1.7038 valLoss=1.9213 trainAcc=33.64% valAcc=23.98% trainF1=0.3349 valF1=0.2351 lr=0.000020 duration=2423ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 1 (id=161)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 161 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 1 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 2 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=162)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  2] trainLoss=1.5794 valLoss=1.8255 trainAcc=38.25% valAcc=28.33% trainF1=0.3808 valF1=0.2815 lr=0.000019 duration=2289ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 2 (id=162)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 162 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 2 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 3 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=163)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  3] trainLoss=1.4551 valLoss=1.7493 trainAcc=42.67% valAcc=31.12% trainF1=0.4212 valF1=0.3087 lr=0.000017 duration=2596ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 3 (id=163)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 163 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 3 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 4 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=164)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  4] trainLoss=1.3147 valLoss=1.6745 trainAcc=49.24% valAcc=34.25% trainF1=0.4863 valF1=0.3338 lr=0.000016 duration=2999ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 4 (id=164)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 164 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 4 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 5 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=165)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  5] trainLoss=1.1949 valLoss=1.5957 trainAcc=53.20% valAcc=37.55% trainF1=0.5264 valF1=0.3683 lr=0.000015 duration=2550ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 5 (id=165)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 165 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 5 — valLoss={:.4f}
+2026-04-17 10:32:55 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: learning_rate -> 1.00e-05
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'learning_rate' changed: 1.47e-05 ? 1.00e-05 (Linear LR decay starts after warmup)
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 6 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=166)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  6] trainLoss=1.0721 valLoss=1.5027 trainAcc=57.79% valAcc=39.97% trainF1=0.5744 valF1=0.3962 lr=0.000013 duration=2303ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 6 (id=166)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 166 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 6 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 7 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=167)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  7] trainLoss=0.9663 valLoss=1.4248 trainAcc=62.75% valAcc=43.80% trainF1=0.6172 valF1=0.4283 lr=0.000012 duration=2482ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 7 (id=167)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 167 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 7 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 8 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=168)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  8] trainLoss=0.8456 valLoss=1.3424 trainAcc=67.44% valAcc=46.98% trainF1=0.6674 valF1=0.4672 lr=0.000011 duration=2985ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 8 (id=168)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 168 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 8 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 9 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=169)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[  9] trainLoss=0.6989 valLoss=1.2429 trainAcc=73.54% valAcc=50.55% trainF1=0.7286 valF1=0.4925 lr=0.000009 duration=2537ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 9 (id=169)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 169 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 9 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 10 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=170)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 10] trainLoss=0.5801 valLoss=1.1562 trainAcc=78.41% valAcc=55.33% trainF1=0.7674 valF1=0.5454 lr=0.000008 duration=2422ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 10 (id=170)
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 170 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 10 — valLoss={:.4f}
+2026-04-17 10:32:55 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 11 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=171)
+2026-04-17 10:32:55 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 11] trainLoss=0.4375 valLoss=1.0689 trainAcc=84.22% valAcc=58.08% trainF1=0.8321 valF1=0.5797 lr=0.000007 duration=2966ms
+2026-04-17 10:32:55 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 11 (id=171)
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 171 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 11 — valLoss={:.4f}
+2026-04-17 10:32:56 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 12 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=172)
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 12] trainLoss=0.3240 valLoss=0.9954 trainAcc=87.24% valAcc=62.01% trainF1=0.8515 valF1=0.6120 lr=0.000005 duration=2561ms
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 12 (id=172)
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 172 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 12 — valLoss={:.4f}
+2026-04-17 10:32:56 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 13 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=173)
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 13] trainLoss=0.1973 valLoss=0.8794 trainAcc=92.17% valAcc=65.18% trainF1=0.9217 valF1=0.6468 lr=0.000004 duration=2063ms
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 13 (id=173)
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 173 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 13 — valLoss={:.4f}
+2026-04-17 10:32:56 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 14 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=174)
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 14] trainLoss=0.0586 valLoss=0.7902 trainAcc=99.36% valAcc=69.42% trainF1=0.9880 valF1=0.6939 lr=0.000003 duration=2549ms
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 14 (id=174)
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 174 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 14 — valLoss={:.4f}
+2026-04-17 10:32:56 [DEBUG] com.ailogger.dao.TrainingEpochDAO - Epoch 15 logged for session 455e3ee8-8110-4867-a1cb-6d32955183f1 (id=175)
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   Epoch[ 15] trainLoss=0.0300 valLoss=0.6742 trainAcc=99.50% valAcc=74.80% trainF1=0.9930 valF1=0.7288 lr=0.000001 duration=2453ms
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint saved at epoch 15 (id=175)
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.ModelCheckpointDAO - Checkpoint 175 marked as best for session 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   ? NEW BEST checkpoint at epoch 15 — valLoss={:.4f}
+2026-04-17 10:32:56 [INFO ] c.ailogger.dao.HyperparameterLogDAO - Hyperparameter change logged: early_stopping -> true
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger -   ? Hyperparameter 'early_stopping' changed: false ? true (Val loss not improving for 3 epochs — stopping)
+2026-04-17 10:32:56 [INFO ] com.ailogger.dao.TrainingSessionDAO - Session 455e3ee8-8110-4867-a1cb-6d32955183f1 status updated to COMPLETED
+2026-04-17 10:32:56 [INFO ] com.ailogger.service.TrainingLogger - ? Training session COMPLETED: 455e3ee8-8110-4867-a1cb-6d32955183f1
+2026-04-17 10:32:56 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/71c2e869_summary.txt
+2026-04-17 10:32:56 [INFO ] c.ailogger.service.ReportGenerator - CSV exported: reports/71c2e869_epochs.csv
+2026-04-17 10:32:56 [INFO ] c.ailogger.service.ReportGenerator - Report saved to: reports/455e3ee8_summary.txt

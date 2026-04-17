@@ -1,0 +1,33 @@
+<configuration>
+    <!-- Console appender with clean formatting -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%-5level] %logger{20} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Rolling file appender — keeps last 30 days of logs -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/aitraining.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/aitraining.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%-5level] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Reduce noise from SQLite driver -->
+    <logger name="org.sqlite" level="WARN"/>
+
+    <!-- Application loggers: INFO by default, debug for DAO layer -->
+    <logger name="com.ailogger.dao"     level="DEBUG"/>
+    <logger name="com.ailogger.service" level="INFO"/>
+    <logger name="com.ailogger.util"    level="INFO"/>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>

@@ -1,0 +1,16 @@
+com\ailogger\dao\ModelCheckpointDAO.class
+com\ailogger\model\TrainingEpoch.class
+com\ailogger\model\TrainingSession$Status.class
+com\ailogger\service\ReportGenerator.class
+com\ailogger\dao\SystemMetricsDAO.class
+com\ailogger\config\DatabaseConfig.class
+com\ailogger\model\SystemMetrics.class
+com\ailogger\dao\HyperparameterLogDAO.class
+com\ailogger\Main.class
+com\ailogger\service\TrainingLogger.class
+com\ailogger\model\TrainingSession.class
+com\ailogger\util\DBConnection.class
+com\ailogger\dao\TrainingEpochDAO.class
+com\ailogger\model\ModelCheckpoint.class
+com\ailogger\model\HyperparameterLog.class
+com\ailogger\dao\TrainingSessionDAO.class

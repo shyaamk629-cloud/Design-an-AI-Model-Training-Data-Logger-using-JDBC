@@ -1,0 +1,15 @@
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\config\DatabaseConfig.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\dao\HyperparameterLogDAO.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\dao\ModelCheckpointDAO.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\dao\SystemMetricsDAO.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\dao\TrainingEpochDAO.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\dao\TrainingSessionDAO.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\Main.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\model\HyperparameterLog.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\model\ModelCheckpoint.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\model\SystemMetrics.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\model\TrainingEpoch.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\model\TrainingSession.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\service\ReportGenerator.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\service\TrainingLogger.java
+C:\Users\ELCOT\Documents\java\AITrainingLogger\src\main\java\com\ailogger\util\DBConnection.java
